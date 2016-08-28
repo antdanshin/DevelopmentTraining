@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>РасчетВозрастаВМесяцах</name>
+	<test-cases>
+		<test-case start="63608014453229" stop="63608014454445" status="passed">
+			<name>расчет возраста человека с датой рождения 03.05.2000</name>
+			<steps>
+				<step start="63608014453728" stop="63608014453728" status="passed">
+					<name>Допустим дата рождения человека 03.05.2000</name>
+					<title>Допустим дата рождения человека 03.05.2000</title>
+				</step>
+				<step start="63608014454040" stop="63608014454040" status="passed">
+					<name>Когда текущая дата для расчета 22.08.2016</name>
+					<title>Когда текущая дата для расчета 22.08.2016</title>
+				</step>
+				<step start="63608014454243" stop="63608014454445" status="passed">
+					<name>Тогда возраст человека в месяцах равен 195</name>
+					<title>Тогда возраст человека в месяцах равен 195</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="расчет возраста человека с датой рождения 03.05.2000"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="РасчетВозрастаВМесяцах"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
